@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    color: black;
+    font-weight: 500;
+}
+
+
+/* TOP CONTAINER */
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Salsa", cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2 {
+    font-family: "Salsa", cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+p {
+    line-height: 2;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+
+
+/* MIDDLE CONTAINER */
+.middle-container {
+    margin: 100px auto;
+}
+.intro {
+    margin: auto;
+    width: 30%;
+}
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.computer-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.contact-message {
+    width: 20%;
+    margin: 40px auto 60px;
+}
+.time-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+.btn {
+    background: #11CDD4;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+h3 {
+    font-family: cursive;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+    color: black;
+    font-family: sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover {
+    color: white;
+}
+
+
+/* BOTTOM CONTAINER */
+.bottom-container {
+    background: #66BFBF;
+    padding: 50px 0 20px;
+}
+.copytight-message{
+    color: white;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 20px;
+}
