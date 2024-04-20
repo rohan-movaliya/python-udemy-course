@@ -1,0 +1,16 @@
+/* color palet : https://colorhunt.co/ */
+/* In this CSS file use :https://colorhunt.co/palette/66bfbfeaf6f6ffffffff0063 */
+body{
+    background-color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+}
+h1, h2{
+    color: #66BFBF;
+}
