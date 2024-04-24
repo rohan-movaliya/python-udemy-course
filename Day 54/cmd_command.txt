@@ -1,0 +1,10 @@
+pwd : print working directory
+ls : list
+cd : change directory
+mkdir : make new directory(folder)
+touch : make new file(file)
+rm : delete file
+rm -rf : delete folder(directory)
+
+
+cd .. : to move parent directory
