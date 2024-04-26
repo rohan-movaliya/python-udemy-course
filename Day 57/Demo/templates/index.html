@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinja</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>5 x 2 = {{5*2}}</h2>
+    <p>Random Number between 1 to 100 : <strong>{{num}}</strong></p>
+    <a href="{{ url_for('get_blogs', num=3)}}"><b>Get Blogs</b></a>
+    <footer>
+        <p>Copyright {{current_year}}. Built by <strong>Rohan Movaliya</strong></p>
+    </footer>
+</body>
+</html>
